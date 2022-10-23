@@ -2,7 +2,7 @@
 title: "Remove unkown objects from Azure Role Based Access Control"
 layout: post
 ---
-When working within your Azure environment you leverage Role Based Access Control, either on your Management Group, subscription, resource group or even on a resource level. Now due to a variety of reasons you eventually see a identity with the name *Identity not found*. So you know have a case where permissions are assigned to an identity that got removed; this typically happens in cases where users get removed from Azure Active Directory or for example a Managed Identity that got removed.
+When working within your Azure environment you leverage Role Based Access Control, either on your Management Group, subscription, resource group or even on a resource level. Now due to a variety of reasons you eventually see a identity with the name *Identity not found*. So you now have a case where permissions are assigned to an identity that got removed; this typically happens in cases where users get removed from Azure Active Directory or for example a Managed Identity that got removed.
 
 ## Why should I care?
 
