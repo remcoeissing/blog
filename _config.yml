@@ -5,6 +5,7 @@ permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
+google_analytics: G-KL60FHB5S7
 
 # Layout
 show_excerpts: true        # show article excerpts on the home page
