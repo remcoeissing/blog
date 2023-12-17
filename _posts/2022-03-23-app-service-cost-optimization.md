@@ -1,5 +1,5 @@
 ---
-title: "App Serivce Plan cost optimization"
+title: "App Service Plan cost optimization"
 layout: post
 ---
 App Services in Azure make it easy to quickly spin up an environment where you can host a webapp or api, without having to manage the webserver yourself.
