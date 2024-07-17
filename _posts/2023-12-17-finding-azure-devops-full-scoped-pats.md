@@ -48,7 +48,7 @@ $Headers = @{
 
 function GetUsers
 {
-    $UsersUrl = "https://vssps.dev.azure.com/$OrganizationName/_apis/graph/users?api-version=7.2-preview.1"
+    $UsersUrl = "https://vssps.dev.azure.com/$OrganizationName/_apis/graph/users?subjectTypes=aad&api-version=7.2-preview.1"
     $UsersResult = Invoke-RestMethod -Method:Get -Uri $UsersUrl -Headers $Headers
 
     return $UsersResult.value
@@ -61,10 +61,10 @@ $Results = @()
 
 foreach($User in $FilteredUsers)
 {
-    $PatUrl = "https://vssps.dev.azure.com/$OrganizationName/_apis/tokenadmin/personalaccesstokens/$($User.descriptor)?api-version=6.0-preview.1"
+    $PatUrl = "https://vssps.dev.azure.com/$OrganizationName/_apis/tokenadmin/personalaccesstokens/$($User.descriptor)?api-version=7.1-preview.1"
     $PatResult = Invoke-RestMethod -Method:Get -Uri $PatUrl -Headers $Headers
 
-    if ([String]::IsNullOrEmpty($PatResult.value))
+    if ($null -eq $PatResult.value -or $PatResult.value.Length -le 0)
     {
         Write-Verbose "No PAT found for $($User.displayName)"
     }
