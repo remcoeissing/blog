@@ -20,6 +20,7 @@ If you have any questions feel free to reach out.
 - Microsoft: Azure AI Engineer Associate
 - Microsoft: DevOps Engineer Expert
 - KCNA: Kubernetes and Cloud Native Associate
+- GitHub: Foundations
 - GitHub: Actions
 
 This blog is made with <a href="http://jekyllrb.com/">Jekyll</a>. Theme: <a href="https://github.com/niklasbushmann/contrast">contrast</a> by Niklas Buschmann.
