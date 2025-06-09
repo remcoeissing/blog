@@ -18,6 +18,7 @@ If you have any questions feel free to reach out.
 - Microsoft: Azure Developer Associate
 - Microsoft: Azure Administrator Associate
 - Microsoft: Azure AI Engineer Associate
+- Microsoft: Azure Solution Architect Expert
 - Microsoft: DevOps Engineer Expert
 - KCNA: Kubernetes and Cloud Native Associate
 - GitHub: Foundations
