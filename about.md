@@ -23,5 +23,6 @@ If you have any questions feel free to reach out.
 - KCNA: Kubernetes and Cloud Native Associate
 - GitHub: Foundations
 - GitHub: Actions
+- GitHub: Copilot
 
 This blog is made with <a href="http://jekyllrb.com/">Jekyll</a>. Theme: <a href="https://github.com/niklasbushmann/contrast">contrast</a> by Niklas Buschmann.
